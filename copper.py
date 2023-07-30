@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from PIL import Image
 import gzip
 import numpy as np
 import pandas as pd
@@ -8,13 +7,9 @@ import numpy as np
 import datetime
 from sklearn.preprocessing import OneHotEncoder
 import scipy.stats as stats
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import PowerTransformer
 from imblearn.over_sampling import SMOTE
 from sklearn.ensemble import BaggingClassifier
-from sklearn.metrics import accuracy_score,classification_report,confusion_matrix,classification_report,f1_score,plot_confusion_matrix,roc_auc_score,roc_curve,ConfusionMatrixDisplay
-from sklearn.metrics import plot_roc_curve
 import pickle5 as pkl
 import warnings
 warnings.filterwarnings("ignore")
