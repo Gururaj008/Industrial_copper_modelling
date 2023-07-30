@@ -1,4 +1,5 @@
 altair==5.0.1
+pickle5==0.0.11 
 attrs==23.1.0
 backports.zoneinfo==0.2.1
 blinker==1.6.2
