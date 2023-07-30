@@ -10,7 +10,7 @@ import scipy.stats as stats
 from sklearn.preprocessing import PowerTransformer
 from imblearn.over_sampling import SMOTE
 from sklearn.ensemble import BaggingClassifier
-import pickle as pkl
+import pickle5 as pkl
 import warnings
 warnings.filterwarnings("ignore")
 
