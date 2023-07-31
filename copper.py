@@ -10,7 +10,7 @@ import scipy.stats as stats
 from sklearn.preprocessing import PowerTransformer
 from imblearn.over_sampling import SMOTE
 from sklearn.ensemble import BaggingClassifier
-import pickle5 as pkl
+import pickle as pkl
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -86,6 +86,7 @@ if __name__ == '__main__':
         st.write('')
         st.write('')
         st.markdown('<div style="text-align: justify">The copper industry deals with data related to sales and pricing. However, this data may suffer from issues such as skewness and noisy data, which can affect the accuracy of manual predictions. Dealing with these challenges manually can be time-consuming and may not result in optimal pricing decisions. A machine learning regression model can address these issues by utilizing advanced techniques such as data normalization, feature scaling, and outlier detection, and leveraging algorithms that are robust to skewed and noisy data.    </div>', unsafe_allow_html=True)
+        st.write('')
         st.write('')
         st.markdown('<div style="text-align: justify">The steps involves the project are,   </div>', unsafe_allow_html=True)
         st.write('')
