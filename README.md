@@ -8,4 +8,6 @@ The steps involves the project are,
 2. Transformed the data and performed necessary cleaning and pre-processing steps
 3. Built the ML Classification model which predicts Status: WON or LOST
 4. Built the ML Regression model which predicts continuous variable ‘Selling_Price’
-5. Created a streamlit page where you can insert each column value and you will get the Selling_Price predicted value or Status(Won/Lost) 
+5. Created a streamlit page where you can insert each column value and you will get the Selling_Price predicted value or Status(Won/Lost)
+
+Hosted online at: https://gururaj-hc-industrial-copper-modelling.streamlit.app/ 
